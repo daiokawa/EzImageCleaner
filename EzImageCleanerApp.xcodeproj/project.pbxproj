@@ -1,0 +1,8 @@
+// This is a simplified project file
+// In practice, you would use Xcode to generate this
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    rootObject = "PROJECT_ID";
+}

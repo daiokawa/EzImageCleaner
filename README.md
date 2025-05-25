@@ -2,8 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![macOS](https://img.shields.io/badge/macOS-10.15+-blue.svg)](https://www.apple.com/macos/)
-[![Release](https://img.shields.io/github/v/release/koichiokawa/EzImageCleaner?include_prereleases)](https://github.com/koichiokawa/EzImageCleaner/releases)
-[![Downloads](https://img.shields.io/github/downloads/koichiokawa/EzImageCleaner/total)](https://github.com/koichiokawa/EzImageCleaner/releases)
+[![Release](https://img.shields.io/github/v/release/daiokawa/EzImageCleaner?include_prereleases)](https://github.com/daiokawa/EzImageCleaner/releases)
+[![Downloads](https://img.shields.io/github/downloads/daiokawa/EzImageCleaner/total)](https://github.com/daiokawa/EzImageCleaner/releases)
 
 <p align="center">
   <img src="Resources/Icons/AppIcon.png" width="128" height="128" alt="EzImageCleaner Icon">
@@ -56,7 +56,7 @@
 
 ### Option 1: Download Release (Recommended)
 
-1. Download the latest DMG from [Releases](https://github.com/koichiokawa/EzImageCleaner/releases)
+1. Download the latest DMG from [Releases](https://github.com/daiokawa/EzImageCleaner/releases)
 2. Open the DMG file
 3. Drag EzImageCleaner to your Applications folder
 4. Launch from Applications or Spotlight
@@ -75,7 +75,7 @@ Requirements:
 - macOS 12.0+
 
 ```bash
-git clone https://github.com/koichiokawa/EzImageCleaner.git
+git clone https://github.com/daiokawa/EzImageCleaner.git
 cd EzImageCleaner
 xcodebuild -scheme EzImageCleaner build
 ```
@@ -195,7 +195,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Koichi Okawa**
-- GitHub: [@koichiokawa](https://github.com/koichiokawa)
+- GitHub: [@daiokawa](https://github.com/daiokawa)
 - Twitter: [@daiokawa](https://x.com/daiokawa)
 
 ## 🙏 Acknowledgments
@@ -206,9 +206,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📊 Stats
 
-![GitHub Stars](https://img.shields.io/github/stars/koichiokawa/EzImageCleaner?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/koichiokawa/EzImageCleaner?style=social)
-![GitHub Watchers](https://img.shields.io/github/watchers/koichiokawa/EzImageCleaner?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/daiokawa/EzImageCleaner?style=social)
+![GitHub Forks](https://img.shields.io/github/forks/daiokawa/EzImageCleaner?style=social)
+![GitHub Watchers](https://img.shields.io/github/watchers/daiokawa/EzImageCleaner?style=social)
 
 ---
 

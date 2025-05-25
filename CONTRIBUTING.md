@@ -6,7 +6,7 @@ Thank you for your interest in contributing to EzImageCleaner! We welcome contri
 
 ### Reporting Bugs
 
-1. Check if the bug has already been reported in [Issues](https://github.com/koichiokawa/EzImageCleaner/issues)
+1. Check if the bug has already been reported in [Issues](https://github.com/daiokawa/EzImageCleaner/issues)
 2. If not, create a new issue with:
    - Clear title and description
    - Steps to reproduce
@@ -15,7 +15,7 @@ Thank you for your interest in contributing to EzImageCleaner! We welcome contri
 
 ### Suggesting Features
 
-1. Check existing [feature requests](https://github.com/koichiokawa/EzImageCleaner/issues?q=is%3Aissue+label%3Aenhancement)
+1. Check existing [feature requests](https://github.com/daiokawa/EzImageCleaner/issues?q=is%3Aissue+label%3Aenhancement)
 2. Create a new issue with the `enhancement` label
 3. Describe the feature and why it would be useful
 
@@ -50,6 +50,6 @@ Before submitting:
 
 ## Questions?
 
-Feel free to ask in [Discussions](https://github.com/koichiokawa/EzImageCleaner/discussions) or reach out on Twitter [@daiokawa](https://x.com/daiokawa).
+Feel free to ask in [Discussions](https://github.com/daiokawa/EzImageCleaner/discussions) or reach out on Twitter [@daiokawa](https://x.com/daiokawa).
 
 Thank you for contributing! 🎉

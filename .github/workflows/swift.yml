@@ -1,0 +1,37 @@
+name: Swift
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Select Xcode
+      run: sudo xcode-select -s /Applications/Xcode.app
+      
+    - name: Build
+      run: |
+        cd EzImageCleanerApp.xcodeproj
+        xcodebuild build -project ../EzImageCleanerApp.xcodeproj -scheme EzImageCleanerApp -destination 'platform=macOS' CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+        
+    - name: Test Shell Scripts
+      run: |
+        bash -n Source/Scripts/ezimagecleaner_v2.sh
+        bash -n Source/Scripts/image_viewer_improved.sh
+        bash -n Source/Scripts/build_app.sh
+        bash -n Source/Scripts/create_installer.sh
+        
+    - name: Check Swift Format
+      run: |
+        if command -v swift-format &> /dev/null; then
+          swift-format lint -r Source/SwiftUI/
+        else
+          echo "swift-format not installed, skipping format check"
+        fi

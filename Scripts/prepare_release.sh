@@ -64,7 +64,7 @@ Special thanks to all early testers and contributors!
 
 ---
 
-**Full Changelog**: https://github.com/koichiokawa/EzImageCleaner/commits/v${VERSION}
+**Full Changelog**: https://github.com/daiokawa/EzImageCleaner/commits/v${VERSION}
 EOF
 
 # Create installation instructions

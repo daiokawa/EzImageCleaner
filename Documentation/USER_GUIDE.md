@@ -119,6 +119,6 @@ A: Yes, it's open source, works offline, and only moves files to Trash.
 
 ## Need Help?
 
-- Check our [GitHub Issues](https://github.com/koichiokawa/EzImageCleaner/issues)
+- Check our [GitHub Issues](https://github.com/daiokawa/EzImageCleaner/issues)
 - Tweet [@daiokawa](https://x.com/daiokawa)
 - Read the source code - it's open source!

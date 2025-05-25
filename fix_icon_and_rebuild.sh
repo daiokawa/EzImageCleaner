@@ -30,7 +30,7 @@ cat > "$APP_DIR/Contents/Info.plist" << EOF
     <key>CFBundleIconFile</key>
     <string>AppIcon</string>
     <key>CFBundleIdentifier</key>
-    <string>com.koichiokawa.ezimagecleaner</string>
+    <string>com.daiokawa.ezimagecleaner</string>
     <key>CFBundleName</key>
     <string>EzImageCleaner</string>
     <key>CFBundleShortVersionString</key>

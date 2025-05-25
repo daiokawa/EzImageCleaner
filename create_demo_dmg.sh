@@ -34,7 +34,7 @@ else
     <key>CFBundleExecutable</key>
     <string>launcher</string>
     <key>CFBundleIdentifier</key>
-    <string>com.koichiokawa.ezimagecleaner</string>
+    <string>com.daiokawa.ezimagecleaner</string>
     <key>CFBundleName</key>
     <string>EzImageCleaner</string>
     <key>CFBundleShortVersionString</key>

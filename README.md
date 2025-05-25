@@ -64,7 +64,7 @@
 ### Option 2: Homebrew (Coming Soon)
 
 ```bash
-brew tap koichiokawa/tap
+brew tap daiokawa/tap
 brew install --cask ezimagecleaner
 ```
 

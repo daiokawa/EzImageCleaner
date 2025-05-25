@@ -197,6 +197,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Koichi Okawa**
 - GitHub: [@daiokawa](https://github.com/daiokawa)
 - Twitter: [@daiokawa](https://x.com/daiokawa)
+- Repository: [EzImageCleaner](https://github.com/daiokawa/EzImageCleaner)
+- Hendon Mob: [Player Profile](https://pokerdb.thehendonmob.com/player.php?a=r&n=230741)
 
 ## 🙏 Acknowledgments
 

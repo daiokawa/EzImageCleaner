@@ -1,9 +1,12 @@
-# EzImageCleaner
+# EzImageCleaner - Mac Image Cleanup Tool
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![macOS](https://img.shields.io/badge/macOS-10.15+-blue.svg)](https://www.apple.com/macos/)
+[![Swift](https://img.shields.io/badge/Swift-5.0+-orange.svg)](https://swift.org)
 [![Release](https://img.shields.io/github/v/release/daiokawa/EzImageCleaner?include_prereleases)](https://github.com/daiokawa/EzImageCleaner/releases)
 [![Downloads](https://img.shields.io/github/downloads/daiokawa/EzImageCleaner/total)](https://github.com/daiokawa/EzImageCleaner/releases)
+[![GitHub Issues](https://img.shields.io/github/issues/daiokawa/EzImageCleaner)](https://github.com/daiokawa/EzImageCleaner/issues)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/daiokawa/EzImageCleaner/pulls)
 
 <p align="center">
   <img src="Resources/Icons/AppIcon.png" width="128" height="128" alt="EzImageCleaner Icon">
@@ -13,6 +16,29 @@
   <strong>Clean up large images on your Mac with ease!</strong><br>
   A powerful dual-mode (GUI & Terminal) image management tool for macOS
 </p>
+
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
+</p>
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="https://via.placeholder.com/800x600/1a1a1a/ffffff?text=GUI+Mode+Screenshot" alt="GUI Mode" width="400">
+  <img src="https://via.placeholder.com/800x600/000000/00ff00?text=Terminal+Mode+Screenshot" alt="Terminal Mode" width="400">
+</p>
+
+## 🚀 Quick Start
+
+```bash
+# Download and run
+curl -L https://github.com/daiokawa/EzImageCleaner/releases/latest/download/EzImageCleaner.dmg -o EzImageCleaner.dmg
+open EzImageCleaner.dmg
+```
 
 ## ✨ Features
 

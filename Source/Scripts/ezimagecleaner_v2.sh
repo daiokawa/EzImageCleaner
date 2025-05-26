@@ -137,16 +137,35 @@ open_image() {
     echo -e "\n${CYAN}Opening: $(basename "$abs_path")${NC}"
     echo -e "${BLUE}$(get_file_info "$abs_path")${NC}"
     
-    # Open in Preview
+    # Open in Preview and position windows
     open -a Preview "$abs_path" 2>/dev/null
     
-    # Immediately return focus to Terminal (faster)
-    sleep 0.1
-    osascript -e 'tell application "Terminal" to activate' &>/dev/null
-    osascript -e 'tell application "System Events" to tell process "Terminal" to set frontmost to true' &>/dev/null
+    # Position windows side by side with error handling
+    sleep 0.5
+    osascript << 'END' 2>/dev/null
+try
+    tell application "Preview"
+        if (count of windows) > 0 then
+            tell window 1
+                set bounds to {800, 50, 1400, 900}
+            end tell
+        end if
+    end tell
+end try
+try
+    tell application "Terminal"
+        activate
+        if (count of windows) > 0 then
+            tell window 1
+                set bounds to {50, 50, 750, 900}
+            end tell
+        end if
+    end tell
+end try
+END
     
     # Small delay for Preview to fully load
-    sleep 0.4
+    sleep 0.2
     return 0
 }
 

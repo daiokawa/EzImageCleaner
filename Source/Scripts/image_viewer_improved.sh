@@ -38,8 +38,29 @@ open_image() {
     sleep 0.3
     echo "Opening in Preview: $abs_path (Size: $(stat -f "%.2f MB" "$abs_path" | awk '{print $1}') MB)"
     open -a Preview "$abs_path"
-    sleep 0.7
-    osascript -e 'tell application "Terminal" to activate' &>/dev/null
+    sleep 0.5
+    # Position Preview window to the right side of the screen with error handling
+    osascript << 'END' 2>/dev/null
+try
+    tell application "Preview"
+        if (count of windows) > 0 then
+            tell window 1
+                set bounds to {800, 50, 1400, 900}
+            end tell
+        end if
+    end tell
+end try
+try
+    tell application "Terminal"
+        activate
+        if (count of windows) > 0 then
+            tell window 1
+                set bounds to {50, 50, 750, 900}
+            end tell
+        end if
+    end tell
+end try
+END
     return 0
 }
 

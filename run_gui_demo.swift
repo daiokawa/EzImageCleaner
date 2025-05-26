@@ -10,18 +10,10 @@ struct DemoView: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            // Header with bear icon
+            // Header with bear icon placeholder
             HStack {
-                if let iconImage = NSImage(named: "AppIcon") ?? 
-                   NSImage(contentsOfFile: "/Users/KoichiOkawa/Desktop/EzImageCleaner/bear_icon.png") {
-                    Image(nsImage: iconImage)
-                        .resizable()
-                        .frame(width: 60, height: 60)
-                        .cornerRadius(12)
-                } else {
-                    Text("🐻")
-                        .font(.system(size: 50))
-                }
+                Text("🐻")
+                    .font(.system(size: 50))
                 VStack(alignment: .leading) {
                     Text("EzImageCleaner")
                         .font(.largeTitle)
